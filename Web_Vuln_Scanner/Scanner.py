@@ -117,6 +117,16 @@ class WebSecurityScanner:
             "<input type=text value='<script>alert(1)</script>'>",
             "<marquee onstart=alert(1)>Scrolling Text</marquee>",
             "<video><source onerror=alert(1)>",
+            "<img src=x onerror=alert('XSS')>",
+            "<img src=x onerror=alert('XSS')>",
+            "<img src=x onerror=alert('XSS')>",
+            "<img src=x onerror=alert('XSS')>",
+            "<img src=x onerror=alert('XSS')>",
+            "<img src=x onerror=alert('XSS')>",
+            "<img src=x onerror=alert('XSS')>",
+            "<img src=x onerror=alert('XSS')>",
+            "<img src=x onerror=alert('XSS')>",
+            "<img src=x onerror=alert('XSS')>",
         ]
         
         for payload in xss_payloads:
