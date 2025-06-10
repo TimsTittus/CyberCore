@@ -1,1 +1,1 @@
-# Cine-X
+A collection of cybersecurity projects showcasing my journey in exploring and building tools, scripts, and solutions for securing systems, analyzing threats, and enhancing digital defenses. Continuously updated with new projects and experiments.
