@@ -5,7 +5,7 @@ Follow these steps to set up and observe ICMP-based exfiltration and its listene
 1. Create an ICMP payload script (example name):
 
 ```bash
-nano icmp_lab_exfil.py
+nano icmp_exfil.py
 ```
 
 2. Create an ICMP listener script (example name):
@@ -19,7 +19,7 @@ nano icmp_listener.py
 4. Run the payload:
 
 ```bash
-sudo python3 icmp_lab_exfil.py
+sudo python3 icmp_exfil.py
 ```
 
 5. Monitor traffic with Wireshark, tcpdump, or similar and analyze ICMP Echo Request / Reply packets.
