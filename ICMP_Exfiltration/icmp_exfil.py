@@ -3,7 +3,7 @@ from scapy.all import *
 import time
 
 # Your Windows IP
-target = "192.168.0.107" # Replace with actual target IP
+target = "192.168.0.109" # Replace with actual target IP
 
 # Simulate different types of encoded data
 payloads = [
