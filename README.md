@@ -34,6 +34,7 @@ These tools target local machine resources, kernel stability, or explicit softwa
 | [**Memory Exhaustion**](./Memory_Exhaustion/) | Rapid background process generation to overwhelm OS scaling and memory (RAM). | Critical |
 | [**Kernel Stress**](./Kernel_Stress/) | Severe I/O Wait pressure simulation specifically manipulating cache and load. | Critical |
 | [**Fork Bomb**](./Fork_Bomb/) | Exponential process replication targeting the core process table, causing immediate freezes. | Critical |
+| [**Advanced Persistence & Evasion**](./AdvancedPersistence_Evasion/) | Multi-layered backdoor techniques using masqueraded cron jobs and systemd overriding. | Critical |
 
 ---
 
